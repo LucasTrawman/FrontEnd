@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(83, 83, 83);
+    background-image: url(/img/UP.jpg) ;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: initial;
+    background-size: inherit;
+}

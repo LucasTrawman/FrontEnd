@@ -1,0 +1,19 @@
+
+* {
+  color: aliceblue;
+}
+body {
+  background-color: #131313;
+}
+h1 {
+    color: white;
+    font-family: Roboto;
+}
+.review-score {
+  background-color: rgb(154, 154, 29);
+  color: white;
+}
+.titulo {
+    font-family: 'Roboto', sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");

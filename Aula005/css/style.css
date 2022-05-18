@@ -1,0 +1,23 @@
+* {
+    background-color: black;
+    color: rgb(139, 129, 94);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+p {
+    color: rgb(98, 54, 115)
+}
+li {
+    color: rgb(98, 54, 115)
+}
+
+h1 {
+    width: 500px;
+    height: 40px;
+    background-color: bisque;
+    border-radius: 50px;
+    text-align-last: center;
+    text-align: center;
+    
+}

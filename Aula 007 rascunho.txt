@@ -1,0 +1,10 @@
+seletor:
+parte onde você insere as
+alterações que fara no css
+
+<h3 class="subtitle" h3>
+
+.subtitle = essa classe vira
+um seletor
+
+# é de ID
