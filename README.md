@@ -1,4 +1,4 @@
-Aqui estão todos os trabalhos feitos na diciplina de forntend 1 da digital house
+Aqui estão todos os trabalhos feitos na diciplina de frontend 1 da digital house
 
 Aulas sem especificações são feitas durante a aula;
 Aulas com PG no final são feitas com base em conteúdos do Playground;
