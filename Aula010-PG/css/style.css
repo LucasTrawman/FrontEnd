@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+div.caixa1 {
+    background-color: orange;
+    border: 50px solid black;
+}
+
+div.caixa2 {
+    background-color: blueviolet;
+    border-top: 5px dotted black;
+}
+div.caixa3 {
+    background-color: crimson;
+    border-bottom: 15px solid green;
+    border-top: 6px dotted black;
+}
+div {
+    /*display: inline-block;*/
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    padding: 30px;
+    
+}
