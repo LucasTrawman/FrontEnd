@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box
+}
+main {
+    background-color: yellow;
+    height: 500px;
+    width: 500px;
+    border: solid 2px black;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.filha { 
+    background-color: yellow;
+    height: 250px;
+    width: 250px;
+    border: solid 2px black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 20px;
+}
+
+header {
+    background-color: green;
+    height: 800px;
+    width: 800px;
+    border: solid 2px black;
+    margin: 50px;
+    position: relative;
+}
+.filha2 {
+    background-color: yellow;
+    height: 250px;
+    width: 250px;
+    border: solid 2px black;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+
+/*quando for usado position: relative, independente de onde o bloco estiver
+a sua posição de origem não será ocupada por nada, agora, se for usado absolute ou
+fixed, a sua posição de origem será preenchida por outros conteúdos. tentei entender
+direito mas ta faltando um pouco, vou ver se consigo entender na aula, se não der 
+eu volto pra essa aula*/
