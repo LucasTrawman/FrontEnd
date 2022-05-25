@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Roboto:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eaeaea;
+}
+
+header {
+    height: 100px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 30px;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.menu {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: end;
+    gap: 15px;
+}
+
+p {
+    display: inline;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    
+    color: #F3F3F3;
+}
+
+main {
+    height: 421px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.envio {
+    background-image: url("/img/delivery.jpg");
+    height: 350px;
+    width: 490px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+p.envio1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FC200C;
+}
+
+span {
+    color: white;
+}
+
+.cardapio {
+    background-color: white;
+    display: flex;
+    height: 350px;
+    width: 490px;
+    border-radius: 5px;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.cardapio1 {
+    
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+
+}
+
+.cardapio1__p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FC200C;
+}
+
+.cardapio2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+
+ol {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+
+.lista {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+p.top5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #222222;
+}
+
+footer {
+    height: 150px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 70px;
+    align-items: center;
+
+}
+
+.logo__footer {
+    width: 212px;
+}
+
+.menu__footer {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: end;
+    gap: 12px;
+}
