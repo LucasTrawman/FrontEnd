@@ -43,6 +43,7 @@ main {
     align-items: center;
     justify-content: center;
     gap: 120px;
+    flex-wrap: wrap;
 }
 
 .batman {
