@@ -1,5 +1,6 @@
 # `**Nessa aula foi ensinado como fazer a estrutura inicial do nosso trabalho/site.**`
 
+## O que foi feito:
 1. criar o diretório (css)
 2. dentro deste diretório criar o arquivo (css.style), que será o nosso arquivo de estilização.
 3. criar o diretório (img), que irá conter todas as imagens usadas no site.
