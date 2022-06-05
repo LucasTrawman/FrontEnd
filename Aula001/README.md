@@ -1,0 +1,1 @@
+Nesta aula não foi feito nenhum conteúdo já relacionado com a programação do FrontEnd, apenas o aprendizado de alguns conehcimentos da área, assim como o que é um cliente, o que é um servidor, o que é a internet e a WEB, e qual a diferença entre elas etc.
