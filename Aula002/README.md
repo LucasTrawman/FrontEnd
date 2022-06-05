@@ -8,4 +8,4 @@
 5. dentro do arquivo index.html, podemos digitar (! + ENTER) ou digitar (html:5 e dar ENTER) que irá abrir as configurações básicas para começarmos a desenvolver o site.
 6. Criamos o nosso primeiro Hello World! dentro de uma tag h1, no arquivo index.html.
 
-P.S: Boa parte desta aula foi relacionada aos wireframes feitos no figma, só depois que demos início ao ocnteúdo trabalhado no VS code.
+P.S: Boa parte desta aula foi relacionada aos wireframes feitos no figma, só depois que demos início ao conteúdo trabalhado no VS code.
