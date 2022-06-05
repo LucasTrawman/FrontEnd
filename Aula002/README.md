@@ -1,4 +1,4 @@
-# `**Nessa aula foi ensinado como fazer a estrutura inicial do nosso trabalho/site.**`
+# **`Nessa aula foi ensinado como fazer a estrutura inicial do nosso trabalho/site.`**
 
 ## O que foi feito:
 1. criar o diretório (css)
