@@ -1,0 +1,1 @@
+A aula 3 foi inteira sobre o figma, caso tenha interesse foi passado uma playlist com um material de como usar o figma para fazer o design do site.

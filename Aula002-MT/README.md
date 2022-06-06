@@ -1,0 +1,1 @@
+Nada de mais aqui, apenas um exercício para reforçar a forma correta de organizar as pastas e os arquivos para criar um site
