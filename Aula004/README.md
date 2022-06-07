@@ -1,4 +1,4 @@
-# O que foi aprendido:
+# Conteúdo:
 
 1. tag `<!DOCTYPE html>`, define que o nosso  arquivo é do tipo html;
 2. tag `<html lang="en">`, nos mostra a linguagem que o nosso arquivo html está;
