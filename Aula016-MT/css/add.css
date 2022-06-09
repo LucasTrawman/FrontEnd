@@ -30,6 +30,10 @@ header .desconto {
     padding-left: 30px;
 }
 
+li {
+    list-style: none;
+}
+
 header .loja {
     height: 80px;
     background: #00669F;
@@ -45,82 +49,48 @@ header .loja {
     color: white;
 }
 
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1;
-}
-
-fieldset {
-    height: 428px;
-    width: 621px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border: none;
-    gap: 20px;
-}
-
-fieldset h2 {
-    align-self: flex-start;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 72px;
-    margin-bottom: 30px;
-    color: #333333;
-}
-
-fieldset div input{
-    width: 620px;
-    height: 60px;
-    padding-left: 20px;
-    font-family: 'Karla';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    color: black;
-    border: 2px solid #000000;
-}
-
-button {
-    height: 54px;
-    width: 614px;
-    border-radius: 23px;
-    font-family: 'Karla';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    background-color: #1CD1B0;
-    border: none;
-    margin-top: 30px;
-    cursor: pointer;
-}
-
-.loja span {
-    font-family: 'Karla';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21.4769p x;
-}
-
-a {
-    text-decoration: none;
-    color: #00669F;
-}
-
-footer {
-    height: 61px;
-    background-color: #00669F;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header nav {
+    height: 40px;
+    background: #001D2D;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header ul {
+    flex-grow: 1;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    color: #FFF9F9;
+    color: white;
+    gap: 30px;
+    padding-right: 30px;
 }
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .add {
+    height: 832px;
+    width: 954px;
+    background: #00669F;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49.0901px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+main .first-add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
