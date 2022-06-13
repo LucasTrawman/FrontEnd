@@ -83,7 +83,7 @@ header a {
 
 .banner_main_first {
     width: 800px;
-    background-image: url(img/bandeira.png);
+    background-image: url(../img/bandeira.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
