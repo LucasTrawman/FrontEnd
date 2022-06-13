@@ -1,0 +1,1 @@
+Nessa aula do pg eu trabalhei com as propriedades das bordas.

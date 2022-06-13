@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.desconto {
+    background-color: #1cd1b0;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.herois {
+    height: 101px;
+    background-color: #00669f;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+main {
+    height: 833px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    flex-wrap: wrap;
+}
+
+.batman {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 597,01px;
+    width: 374px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+}
+
+.batman__bg {
+    background-image: url(/img/batman-bg.png);
+    height: 218px;
+}
+
+.batman__text {
+    background-color: #f3f3f3;
+    width: 374px;
+    height: 379.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 50px;
+    gap: 25px;
+}
+
+img.logo {
+    
+    border-radius: 100%;
+    position: absolute;
+    bottom: 315px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.batman__batman {
+    font-size: 30px;
+}
+
+p.batman__p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.batman__ver-mais {
+    width: 145.34px;
+    height: 54.76px;
+    background-color: #00669f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #F3F3F3;
+}
+
+img.heart {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.arlequina {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 597,01px;
+    width: 374px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+}
+
+.arlequina__bg {
+    background-image: url(/img/arlequina-bg.png);
+    height: 218px;
+}
+
+.arlequina__text {
+    background-color: #f3f3f3;
+    width: 374px;
+    height: 379.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 50px;
+    gap: 25px;
+}
+
+
+.arlequina__arlequina {
+    font-size: 30px;
+}
+
+p.arlequina__p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.arlequina__ver-mais {
+    width: 145.34px;
+    height: 54.76px;
+    background-color: #00669f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #F3F3F3;
+}
+
+footer {
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 51px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    color: #FFF9F9;
+}
