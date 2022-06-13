@@ -83,7 +83,8 @@ header a {
 
 .banner_main_first {
     width: 800px;
-    background-image: url(../img/bandeira.png);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/db/Flag_of_Riograndense_Republic.gif);
+    background-size: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
