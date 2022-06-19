@@ -25,7 +25,7 @@ header li {
 }
 
 .one:hover {
-    transform: scale(2);
+    transform: scaleX(2);
 }
 
 .two:hover {
