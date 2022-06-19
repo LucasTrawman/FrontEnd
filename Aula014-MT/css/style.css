@@ -3,20 +3,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: "Roboto";
+    font-family: "Roboto"
 }
 
 header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .desconto {
-    background-color: #1cd1b0;
+    background-color: #D1891C;
     height: 38px;
     display: flex;
     align-items: center;
@@ -38,15 +36,33 @@ header {
 }
 
 main {
-    height: 833px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
     gap: 120px;
     flex-wrap: wrap;
+    padding: 100px;
 }
 
-.batman {
+.mais {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 40px;
+    top: 400px;
+    background-color: #00669f;
+    padding: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    z-index: 1;
+}
+
+.banners {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     height: 597,01px;
@@ -58,12 +74,12 @@ main {
     position: relative;
 }
 
-.batman__bg {
+.banners__bg {
     background-image: url(/img/batman-bg.png);
     height: 218px;
 }
 
-.batman__text {
+.banners__text {
     background-color: #f3f3f3;
     width: 374px;
     height: 379.2px;
@@ -86,16 +102,16 @@ img.logo {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.batman__batman {
+.banners__nome {
     font-size: 30px;
 }
 
-p.batman__p {
+p.banners__p {
     font-size: 16px;
     text-align: center;
 }
 
-.batman__ver-mais {
+.banners__ver-mais {
     width: 145.34px;
     height: 54.76px;
     background-color: #00669f;
@@ -112,65 +128,47 @@ img.heart {
     left: 20px;
 }
 
-.arlequina {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: 597,01px;
-    width: 374px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    position: relative;
-}
-
-.arlequina__bg {
-    background-image: url(/img/arlequina-bg.png);
-    height: 218px;
-}
-
-.arlequina__text {
-    background-color: #f3f3f3;
-    width: 374px;
-    height: 379.2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 50px;
-    gap: 25px;
-}
-
-
-.arlequina__arlequina {
-    font-size: 30px;
-}
-
-p.arlequina__p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.arlequina__ver-mais {
-    width: 145.34px;
-    height: 54.76px;
-    background-color: #00669f;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    color: #F3F3F3;
-}
-
 footer {
     background: #00669F;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    height: 51px;
     display: flex;
-    align-items: center;
     padding: 30px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5 {
     color: #FFF9F9;
+}
+
+.github {
+    margin-left: auto;
+}
+
+footer img {
+    height: 40px;
+}
+
+@media (max-width: 460px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0;
+    }
+    .banner {
+        max-width: 40%;
+    }
+    .mais {
+        z-index: 1;
+    }
 }

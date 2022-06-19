@@ -1,176 +1,145 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  --card-background: #f3f3f3;
+  --primary-color: #00669f;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-    font-family: "Roboto";
+  width: 100%;
+  height: 100vh; /*essa é a medida que pega toda a altura visível do nosso navegador*/
+  display: flex; /*utilizei o display flex para que o main ocupe todo o espaço disponível na página,decrementando o espaço atribuído para o header e o footer */
+  flex-direction: column;
 }
 
 header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-
-.desconto {
-    background-color: #1cd1b0;
-    height: 38px;
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
-    font-size: 18px;
-}
-
-.herois {
-    height: 101px;
-    background-color: #00669f;
-    padding-left: 30px;
-    display: flex;
-    align-items: center;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1;
 }
 
 main {
-    height: 833px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 120px;
-    flex-wrap: wrap;
+  flex-grow: 1; /* para que o main ocupe todo o espaço utilizei o flex-grow */
 }
 
-.batman {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: 597,01px;
-    width: 374px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    position: relative;
+.bar-descount {
+  height: 38px;
+  width: 100%;
+  background-color: #1cd1b0;
+  padding: 10px;
+  font-weight: bold;
 }
 
-.batman__bg {
-    background-image: url(/img/batman-bg.png);
-    height: 218px;
+.title {
+  height: 101px;
+  background-color: var(--primary-color);
+  padding: 5px;
+  font-size: 2rem;
+  box-shadow: 0px 12px 11px -8px rgba(0, 0, 0, 0.58);
 }
 
-.batman__text {
-    background-color: #f3f3f3;
-    width: 374px;
-    height: 379.2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 50px;
-    gap: 25px;
+.container-cards {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
 }
 
-img.logo {
-    
-    border-radius: 100%;
-    position: absolute;
-    bottom: 315px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.card {
+  width: 374px;
+  height: 580px;
+
+  background-color: var(--card-background);
+  border-radius: 16px 16px 0px 0px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0px 7px 6px -1px rgba(0, 0, 0, 0.47);
 }
 
-.batman__batman {
-    font-size: 30px;
+.card__img-background {
+  width: 100%;
+  height: 210px;
+  position: relative;
 }
 
-p.batman__p {
-    font-size: 16px;
-    text-align: center;
+.background-batman {
+  background-image: url("../img/background-batman.png");
+  background-repeat: no-repeat;
+  background-color: cover;
 }
 
-.batman__ver-mais {
-    width: 145.34px;
-    height: 54.76px;
-    background-color: #00669f;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    color: #F3F3F3;
+.background-arlequina {
+  background-image: url("../img/background-arlequina.png");
+  background-repeat: no-repeat;
+  background-color: cover;
+}
+.card__icone {
+  position: absolute;
+  top: 15px;
+  left: 15px;
 }
 
-img.heart {
-    position: absolute;
-    top: 15px;
-    left: 20px;
+.card__img-user img {
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 115px;
+  top: 130px;
 }
 
-.arlequina {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: 597,01px;
-    width: 374px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    position: relative;
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1; /*inclui o flex-grow e removi o header*/
+  margin-top: 65px;
 }
 
-.arlequina__bg {
-    background-image: url(/img/arlequina-bg.png);
-    height: 218px;
+.card__desc {
+  margin: 10px 20px;
+  text-align: justify;
+  flex-grow: 1;
 }
 
-.arlequina__text {
-    background-color: #f3f3f3;
-    width: 374px;
-    height: 379.2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 50px;
-    gap: 25px;
-}
+.card__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
 
-.arlequina__arlequina {
-    font-size: 30px;
-}
+  width: 145.34px;
+  height: 54.76px;
 
-p.arlequina__p {
-    font-size: 16px;
-    text-align: center;
-}
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #f3f3f3;
 
-.arlequina__ver-mais {
-    width: 145.34px;
-    height: 54.76px;
-    background-color: #00669f;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    color: #F3F3F3;
+  margin: 20px;
 }
 
 footer {
-    background: #00669F;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    height: 51px;
-    display: flex;
-    align-items: center;
-    padding: 30px;
-    color: #FFF9F9;
+  background-color: var(--primary-color);
+  height: 51px;
+  width: 100%;
+  color: #fff9f9;
+  padding: 10px;
 }
