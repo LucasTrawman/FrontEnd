@@ -1,111 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Cat & Dog</title>
-  </head>
-  <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pet Shop</title>
+</head>
+
+<body>
+
     <header>
-      <div class="header__primeiro">
-        <div class="header__one">
-          <h2>Grandes ofertas em comedouros</h2>
+        <div class="ofertas">
+            <h5>Grandes ofertas em comedouros</h5>
         </div>
+        <div class="cabecalho">
+            <div class="header__logo">
+                <img src="./img/Logo.svg" alt="Logo">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li class="underline">
+                            <a href="">
+                                <img src="./img/pawprint 1.svg" alt="">
+                                <span>Categorias</span>
+                            </a>
+                        </li>
 
-        <div class="header__two">
-          <h2>Português<img src="/img/seta.png" alt="seta" /></h2>
-          <h2>BRL$<img src="/img/seta.png" alt="seta" /></h2>
-        </div>
-      </div>
-      <div class="header__segundo">
-        <div class="header__three">
-          <img src="/img/Logo (1).png" alt="Logo" />
-        </div>
+                        <li class="underline">
+                            <a href="">
+                                <img src="./img/pawprint 1.svg" alt="">
+                                <span>Pets</span>
+                            </a>
+                        </li>
 
-        <div class="header__four">
-          <img src="/img/Categorias.png" alt="Categorias" />
-          <img src="/img/Pets.png" alt="Pets" />
-          <img src="/img/Sobre Nosotros.png" alt="Quem somos" />
-          <img src="/img/Contactanos.png" alt="Contato" />
+                        <li class="underline">
+                            <a href="">
+                                <img src="./img/pawprint 1.svg" alt="">
+                                <span>Quem somos</span>
+                            </a>
+                        </li>
+
+                        <li class="underline">
+                            <a href="">
+                                <img src="./img/pawprint 1.svg" alt="">
+                                <span>Contato</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="menu__img">
+                    <a href="">
+                        <img src="./img/menu.svg" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
     </header>
 
     <main>
-      <div class="main__primeiro">
-        <div class="main__one">
-          <div class="main__one__text">
-            <h3 class="text1">É um prazer te ter aqui!</h3>
-            <h3 class="text2">Comedouros com desconto!</h3>
-            <h3 class="text3">COMEDOUROS</h3>
-          </div>
-        </div>
-      </div>
-      <div class="main__segundo">
-        <img src="/img/pawprint 1.png" alt="pegada">
-        <h4>Produtos destacados</h4>
-        <div class="main__segundo__text">
-          <p>Comedouros</p>
-          <p>-</p>
-          <p>Acessórios</p>
-          <p>-</p>
-          <p>Comida</p>
-        </div>
-      </div>
-      <div class="main__terceiro">
-        <img class="main__imagens" src="/img/churrasquito.png" alt="">
-        <img class="main__imagens" src="/img/comedero.png" alt="">
-        <img class="main__imagens" src="/img/Huesito.png" alt="">
-      </div>
-      <div class="main__quarto">
-        <div class="main__quarto__primeiro">
-          <p class="main__p">Petisco Churrasquito</p>
-          <p class="main__p2">$150</p>
-        </div>
-        <div class="main__quarto__segundo">
-          <p class="main__p">Comedouro para cachorro</p>
-          <p class="main__p2">$250</p>
-        </div>
-        <div class="main__quarto__terceiro">
-          <p class="main__p">Petisco Ossinho</p>
-          <p class="main__p2">$650</p>
-        </div>
-      </div>
+        <section class="banner">
+            <div>
+                <h1>É um prazer te ter aqui!</h1>
+                <h4>Comedouros com desconto</h4>
+                <a href="">COMEDOUROS</a>
+            </div>
+        </section>
+
+        <section class="destaque">
+            <img src="./img/pawprint orange.svg" alt="">
+            <div>
+                <h2>Produtos</h2>
+                <h2>Destacados</h2>
+            </div>
+
+            <ul>
+                <li><a href="">Comedouros</a></li>
+                <li><a href="">Acessórios</a></li>
+                <li><a href="">Comida</a></li>
+            </ul>
+
+            <div class="destaque__cards">
+
+                <div class="card">
+                    <a href="">
+                        <img src="./img/churrasquito.svg" alt="">
+                    </a>
+                    <h3>Petisco Churrasquito</h3>
+                    <h5>R$ 10,50</h5>
+                </div>
+
+
+                <div class="card">
+                    <a href="">
+                        <img src="./img/comedero.svg" alt="">
+                    </a>
+                    <h3>Comedouro para cachorro</h3>
+                    <h5>R$ 35,00</h5>
+                </div>
+
+                <div class="card">
+                    <a href="">
+                        <img src="./img/Huesito.svg" alt="">
+                    </a>
+                    <h3>Petisco Ossinho</h3>
+                    <h5>R$ 3,80</h5>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="contato">
+            <h2>Contato</h2>
+
+            <form action="" method="post" class="form-contato">
+
+                <input type="text" name="nome" id="nome" placeholder="Nome e Sobrenome">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="tel" name="telefone" id="telefone" placeholder="Telefone">
+
+                <div class="form-botoes">
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+
+        <section class="novidades">
+            <div class="novidades-inscrever">
+                <img src="./img/enviar-correo 1.svg" alt="">
+                <span>Inscreva-se para mais novidades</span>
+            </div>
+
+            <form action="" method="post" class="novidades-email">
+                <input type="email" name="novidades-email" id="novidades-email"
+                    placeholder="Informe seu email para receber as novidades">
+                <input type="submit" value="Enviar">
+            </form>
+
+        </section>
+
+        <footer>
+            <div class="footer-pt1">
+                <div class="footer-infos">
+                    <div>
+                        <img src="./img/Icono (1).svg" alt="">
+                        <div class="descricao">
+                            <h4>Localização</h4>
+                            <h5>São Paulo</h5>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="./img/Icono (2).svg" alt="">
+                        <div class="descricao">
+                            <h4>Telefone</h4>
+                            <h5>33 999582536</h5>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="./img/Icono (2).svg" alt="">
+                        <div class="descricao">
+                            <h4>Email</h4>
+                            <h5>pet@petshop.com</h5>
+                        </div>
+                    </div>
+
+                </div>
+                <img class="footer-logo" src="./img/Logo (1).svg" alt="">
+            </div>
+            <div class="footer-pt2">
+                <span>Todos os direitos reservados</span>
+            </div>
+
+        </footer>
+
     </main>
-    <footer>
 
-      <div class="footer__primeiro">
+</body>
 
-        <div class="footer__primeiro__primeiro">
-          <img src="/img/Icono.png" alt="">
-          <img src="/img/Icono (2).png" alt="">
-          <img src="/img/Icono (1).png" alt="">
-        </div>
-
-        <div class="footer__primeiro__segundo">
-          <div class="localização">
-            <h5>Localização</h5>
-            <h6>São Paulo</h6>
-          </div>
-          <div class="telefone">
-            <h5>telefone</h5>
-            <h6>15-111-111-111</h6>
-          </div>
-          <div class="email">
-            <h5>Email</h5>
-            <h6>Email</h6>
-          </div>
-        </div>
-
-        <div class="footer__primeiro__terceiro">
-          <img src="/img/Logo (2).png" alt="logo dois">
-        </div>
-      </div>
-      <div class="footer__segundo">
-        Todos os direitos reservados a Front end I
-      </div>
-    </footer>
-  </body>
 </html>
